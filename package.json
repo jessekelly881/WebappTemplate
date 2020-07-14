@@ -17,6 +17,7 @@
     "react-i18n": "^1.0.1",
     "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
+    "react-use": "^15.3.2",
     "redux": "^4.0.5"
   },
   "devDependencies": {
