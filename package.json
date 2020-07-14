@@ -1,32 +1,35 @@
 {
-  "name": "ReactApp",
-  "version": "0.1.0",
-  "description": "",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "dayjs": "^1.8.29",
-    "loglevel": "^1.6.8",
-    "ramda": "^0.27.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-i18n": "^1.0.1",
-    "react-redux": "^7.2.0",
-    "react-router": "^5.2.0",
-    "react-use": "^15.3.2",
-    "redux": "^4.0.5"
-  },
-  "devDependencies": {
-    "babel-preset-nano-react-app": "^0.1.0",
-    "parcel": "^2.0.0-alpha.3.2"
-  },
-  "babel": {
-    "presets": [
-      "nano-react-app"
-    ]
-  }
+    "name": "ReactApp",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+        "start": "parcel index.pug",
+        "build": "parcel build index.pug"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "dayjs": "^1.8.29",
+        "eslint": "^7.4.0",
+        "husky": "^4.2.5",
+        "loglevel": "^1.6.8",
+        "ramda": "^0.27.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-i18n": "^1.0.1",
+        "react-redux": "^7.2.0",
+        "react-router": "^5.2.0",
+        "react-use": "^15.3.2",
+        "redux": "^4.0.5"
+    },
+    "devDependencies": {
+        "babel-preset-nano-react-app": "^0.1.0",
+        "parcel": "^2.0.0-alpha.3.2",
+        "pug": "^3.0.0"
+    },
+    "babel": {
+        "presets": [
+            "nano-react-app"
+        ]
+    }
 }
