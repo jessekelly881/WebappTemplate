@@ -4,7 +4,9 @@
     "description": "",
     "scripts": {
         "start": "parcel ./src/index.pug",
-        "build": "parcel build ./src/index.pug"
+        "build": "parcel build ./src/index.pug --no-minify --no-source-maps --no-cache",
+        "clean": "rm -rf dist/*; rm -rf .cache",
+        "gendocs": "jsdoc -r -c .jsdoc.json src"
     },
     "license": "MIT",
     "dependencies": {
@@ -12,6 +14,7 @@
         "dayjs": "^1.8.29",
         "eslint": "^7.4.0",
         "husky": "^4.2.5",
+        "jsdoc": "^3.6.3",
         "loglevel": "^1.6.8",
         "ramda": "^0.27.0",
         "react": "^16.13.1",
