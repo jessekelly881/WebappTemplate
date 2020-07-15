@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-jsx-display-if": "^3.0.0",
     "dayjs": "^1.8.29",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
@@ -23,6 +24,7 @@
     "husky": "^4.2.5",
     "jsdoc": "^3.6.3",
     "loglevel": "^1.6.8",
+    "preact": "^10.4.6",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "ramda": "^0.27.0",
@@ -71,6 +73,11 @@
   "babel": {
     "presets": [
       "nano-react-app"
+    ],
+    "plugins": [
+      [
+        "jsx-display-if"
+      ]
     ]
   }
 }
